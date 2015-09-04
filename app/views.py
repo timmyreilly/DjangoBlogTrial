@@ -37,9 +37,9 @@ def cortana(request):
     assert isinstance(request, HttpRequest)
     return render(
         request, 
-        'app/Cortana.mhtml',
+        'app/cortana.mhtml',
         context_instance = RequestContext(request, 
             {
-                'title': 'Cortana',
+                'title': 'cortana',
             })
     )

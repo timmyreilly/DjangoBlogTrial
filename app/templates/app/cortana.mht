@@ -1,11 +1,7 @@
-{% extends "app/layout.html" %}
-
-{% block content %}
-
 MIME-Version: 1.0
 Content-Type: multipart/related; boundary="----=_NextPart_01D0E6FB.BEE1C030"
 
-This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive, such as Windowsï¿½ Internet Explorerï¿½.
+This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive, such as Windows® Internet Explorer®.
 
 ------=_NextPart_01D0E6FB.BEE1C030
 Content-Location: file:///C:/A55B9221/MessingwithCortana.htm
@@ -605,8 +601,8 @@ box whenever. </p>
 
 <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>There would be=
  two
-types of notification. Basically any conversation would be just a little ï¿½ï¿½=
-ï¿½ or
+types of notification. Basically any conversation would be just a little â€=
+¦ or
 something like that in the task bar. Where the OneDrive Sync info is displa=
 y. </p>
 
@@ -6232,7 +6228,3 @@ Content-Type: text/xml; charset="utf-8"
  <o:File HRef=3D"filelist.xml"/>
 </xml>
 ------=_NextPart_01D0E6FB.BEE1C030--
-
-
-
-{% endblock %}
