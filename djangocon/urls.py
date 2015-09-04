@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^$', 'app.views.home', name='home'),
     url(r'^anotherpage/', 'app.views.anotherpage', name='anotherpage'),
     url(r'^cortana/', 'app.views.cortana', name='cortana'),
+    url(r'^c/', 'app.views.c', name='c'),
     # url(r'^additional_resources/', 'app.views.additional_resources', name='additional_resources'),
 
     # Uncomment the admin/doc line below to enable admin documentation:

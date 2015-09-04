@@ -43,3 +43,14 @@ def cortana(request):
                 'title': 'cortana',
             })
     )
+    
+def c(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/c.mht',
+        context_instance = RequestContext(request,
+            {
+                'title': 'cortana'
+            })
+    )
