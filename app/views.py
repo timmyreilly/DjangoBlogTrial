@@ -32,3 +32,14 @@ def anotherpage(request):
                 'year': datetime.now().year,
             })
     )
+    
+def cortana(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request, 
+        'app/Cortana.mhtml',
+        context_instance = RequestContext(request, 
+            {
+                'title': 'Cortana',
+            })
+    )
